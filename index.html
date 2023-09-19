@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hlavní stránka</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/e47c5f612f.js" crossorigin="anonymous"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="bk.css">
+  <style>
+
+  </style>
+
+
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <div class="topnav">
+    <div class="mega">
+    <a href="index.html" class="titlelog"><strong>BK Mladá Boleslav</strong></a>
+    </div>
+    <div id="myLinks">
+      <a href="zpravy.html">Novinky</a>
+      <a href="soupiska.html">Soupiska</a>
+      <a href="cenik.html">Ceník</a>
+      <a href="https://bkboleslav.enigoo.cz/app/vstupenkyonline/events">Vstupenky</a>
+      <a href="https://www.fanshopbkboleslav.cz/">E-shop</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-lg fa-bars"></i>
+    </a>
+  </div>
+  </div>
+<!--Bůh ví jak tohle funguje-->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+
+
+
+
+
+  <!-- Banner se z toho stal než jumbatron -->
+  <a href="https://www.facebook.com/bkboleslav/?locale=cs_CZ">
+    <div class="jumbotron jumbotron-fluid text-center pozadi col-md-12">
+    </div>
+  </a>
+
+  <!-- O klubu -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xxl-6">
+          <h3>O týmu</h3>
+          <p>BK Mladá Boleslav je profesionální hokejový tým který sídlí v České republice, soutěží v nejvyšší lize Čr,
+            v České extralize. Tým byl založen v roce 1908 a má bohatou historii v tomto sportu. Domácím stadionem je
+            Ško-Energo Aréna, která má kapacitu 4 200 diváků. Barvy týmu jsou zelená a bílá, tým má silnou
+            fanouškovskou základnu v Mladé Boleslavi. Tým je znám svým nepříjemným a bruslivým stylem hry, který si získal
+            respekt fanoušků i soupeřů.
+        </div>
+        <div class="col-xxl-12 text-center">
+          <img src="logo500.png" alt="About Us" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <h4>Kontakty</h4>
+          <ul>
+            <li>BK Mladá Boleslav <br>
+              ŠKO-ENERGO Aréna <br>
+              Viničná 31 <br>
+              293 01 Mladá Boleslav</li>
+            <li>IČO: 267 47 618</li>
+            <li>DIČ: CZ 267 47 618</li>
+            <li>Sekretariát: +420 326 748 179</li>
+            <li>Email: info@bkboleslav.cz</li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <h4>Spojte se s námi</h4>
+          <ul>
+            <li><a href="https://www.facebook.com/bkboleslav/?locale=cs_CZ">Facebook</a></li>
+            <li><a
+                href="https://twitter.com/bkboleslav?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+            </li>
+            <li><a href="https://www.instagram.com/bkmladaboleslav/">Instagram</a></li>
+            <li><a href="https://www.youtube.com/channel/UCvnEeLAAFSWS6vE9CG28WlQ">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <h4>Zdroje</h4>
+          <ul>
+            <li><a href="https://getbootstrap.com/">Made with Bootstrap</a></li>
+            <li><a
+                href="https://www.w3schools.com/howto/howto_js_mobile_navbar.asp">Menu-w3shools</a>
+            </li>
+            <li><a
+              href="https://fontawesome.com/">Ikony-Font Awasome</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">Copyright © 2011 – 2022 BK Mladá Boleslav a.s. & <a href="https://esportsmedia.cz/"
+              class="esport">eSports.cz, s.r.o.</a></p>
+              <p>Vytvořil: Filip Hubler</p>
+        </div>
+      </div>
+    </div>
+  </footer>
